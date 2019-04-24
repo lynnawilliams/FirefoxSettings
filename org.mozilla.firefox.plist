@@ -19,8 +19,6 @@
 			<string>Williams</string>
 			<key>URL</key>
 			<string>https://williams.edu</string>
-			<key>Favicon</key>
-			<string>https://williams.edu/favicon.ico</string>
 			<key>Placement</key>
 			<string>toolbar</string>
 		</dict>
@@ -29,8 +27,14 @@
 			<string>Library</string>
 			<key>URL</key>
 			<string>https://library.williams.edu</string>
-			<key>Favicon</key>
-			<string>https://library.williams.edu/favicon.ico</string>
+			<key>Placement</key>
+			<string>toolbar</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Glow</string>
+			<key>URL</key>
+			<string>https://glow.williams.edu</string>
 			<key>Placement</key>
 			<string>toolbar</string>
 		</dict>
@@ -41,13 +45,13 @@
 		<true/>
 		<key>Install</key>
 		<array>
-			<string>/Library/Application Support/Williams/williams-ca.der</string>
+			<string>"/Library/Application Support/Williams/williams-ca.der"</string>
 		</array>
 	</dict>
 	<key>Cookies</key>
 	<dict>
 		<key>Default</key>
-		<false/>
+		<true/>
 		<key>AcceptThirdParty</key>
 		<string>never</string>
 		<key>ExpireAtSessionEnd</key>
@@ -108,19 +112,6 @@
 		<true/>
 		<key>Locked</key>
 		<true/>
-	</dict>
-	<key>Extensions</key>
-	<dict>
-		<key>Install</key>
-		<array>
-			<string>https://addons.mozilla.org/firefox/downloads/file/1053714/ghostery_privacy_ad_blocker-8.2.4-an+fx.xpi</string>
-		</array>
-		<key>Uninstall</key>
-		<array/>
-		<key>Locked</key>
-		<array>
-			<string>firefox@ghostery.com</string>
-		</array>
 	</dict>
 	<key>FlashPlugin</key>
 	<dict>
